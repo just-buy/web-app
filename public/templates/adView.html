@@ -1,0 +1,32 @@
+<div >
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>Title</th>
+            <th>{{adData.title}}</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Description</td>
+            <td>{{adData.description}}</td>
+        </tr>
+        <tr>
+            <td>Price</td>
+            <td>{{adData.value}}</td>
+        </tr>
+        <tr>
+            <td>Ad Buy</td>
+            <td>{{adData.createdBy.name}}</td>
+        </tr>
+        <tr>
+            <td>Contact</td>
+            <td>{{adData.createdBy.mobile}}</td>
+        </tr>
+        <tr>
+            <td>Availability</td>
+            <td>{{!adData.soldOut}}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,8 @@
+<div ng-controller="adListController">
+<ul ng-show="adFound">
+	<li ng-repeat="ad in ads"><ad-view ad-data=ad></ad-view></li>
+</ul>
+    <div ng-hide="adFound">
+        No ads found in this category
+    </div>
+</div>
